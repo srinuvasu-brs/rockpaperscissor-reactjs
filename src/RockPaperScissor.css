@@ -1,0 +1,63 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.start-game {
+  text-align: center;
+}
+
+.game {
+  text-align: center;
+}
+
+.choices {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.choices img {
+  width: 100px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.choices img:hover {
+  transform: scale(1.1);
+}
+
+.choices img.selected {
+  border: 2px solid blue;
+}
+
+.result {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+.form-control{
+  width: 50%;
+  height: 20px;
+}
+h1{
+  text-align: center;
+  margin-top: 10px;
+}
